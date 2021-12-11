@@ -1,0 +1,76 @@
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Source Sans 3', sans-serif;
+    color:white;
+    background-color: black;
+}
+
+.mainContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.contentsContainer {
+    margin: 0 auto;
+    margin-top: 15%;
+    display: flex;
+    flex-direction: row;
+    max-width: 85%;
+}
+
+.imgContainer {
+    flex-grow: 1;
+    margin: 20px 30px;
+}
+
+.detailsContainer {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    margin: 50px 30px;
+    align-items: center;
+}
+
+.title {
+    padding-bottom: 4rem;
+    letter-spacing: 3px;
+    font-size: 1.5rem;
+}
+
+.details {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    padding-bottom: 4rem;
+}
+
+.startDate {
+    font-size: 1.3rem;
+    padding: 2rem 0;
+}
+
+.counter {
+    font-size: 2rem;
+    display: flex; 
+    flex-direction: row;
+}
+
+#days {
+    margin-right: 1rem;
+}
+
+#hours {
+    margin-right: 6rem;
+}
+
+#minutes {
+    margin-right: 1rem;
+}
+
+#days {
+    margin-right: 1rem;
+}
+
+
